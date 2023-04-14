@@ -3,13 +3,15 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
-body{
+p{
     font-family: 'Open Sans', sans-serif;
 }
-
 
 /* All CSS Start Here */
 .banner-section {
@@ -18,5 +20,30 @@ body{
     height: 530px;
     background-size: cover;
     background-color: rgba(12, 11, 36, 0.60);
+}
+
+.offer-section .offer-content .offer-text h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tier-section .tier-content .tier-img .single-img1{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.4), rgba(12, 0, 0, 0.3)), url(../images/tire-fitting.jpg);
+    background-size: cover;
+}
+.tier-section .tier-content .tier-img .single-img2{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.4), rgba(12, 0, 0, 0.3)), url(../images/tire-balancing.jpg);
+    background-size: cover;
+}
+.tier-section .tier-content .tier-img .single-img3{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.4), rgba(12, 0, 0, 0.3)), url(../images/wheel-alignment.jpg);
+    background-size: cover;
+}
+.tier-section .tier-content .tier-img .single-img4{
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.4), rgba(12, 0, 0, 0.3)), url(../images/tire-4.jpg);
+    background-size: cover;
+}
+
+.tc-section ul li a{
+    font-family: 'Open Sans', sans-serif;
 }
 /* All CSS End Here */
