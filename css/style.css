@@ -14,6 +14,25 @@ p{
 }
 
 /* All CSS Start Here */
+
+/* Header CSS Start Here */
+.nav-fixed{
+    transition: 1s;
+}
+.nav-active {
+    background-color: #fff;
+}
+.nav-active .nav-menu .logo{
+    width: 150px;
+}
+.nav-active .nav-menu .menu-item ul li a, .nav-active .nav-menu .right-nav .arabic{
+    color: #352a2d;
+}
+.nav-active .nav-menu .menu-item ul li a:hover, .nav-active .nav-menu .right-nav .arabic:hover{
+    color: #FF0000;
+}
+/* Header CSS End Here */
+
 .banner-section {
     background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(../images/banner-img.jpg);
     width: 100%;
@@ -58,4 +77,5 @@ p{
 .contact-section .single-contact .contact-icon .call-icon{
     transform: rotate(270deg);
 }
+
 /* All CSS End Here */
