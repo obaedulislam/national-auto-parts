@@ -28,7 +28,7 @@
 <body>
    
     <!--==| Header Section Start Here |==-->
-    <header class="shadow sticky top-0 z-50  py-6 nav-fixed">
+    <header class="shadow sticky top-0 z-50  py-6 nav-fixed sm:block hidden">
         <!--==== Navigation Menu Start ====-->
         <div class="container max-w-[1140px] mx-auto ">
             <div class="nav-menu grid grid-cols-12 flex items-center ">
@@ -56,7 +56,7 @@
                             <a class="arabic font-semibold text-white hover:text-[#ff0000]" href="index.html">EN</a>
                         </div>
                         <div class="header-cta">
-                            <button class="py-2 px-5 text-[14px] bg-[#FF0000] text-white ">اطلب عبر الإنترنت <i class="fa fa-arrow-right ml-2"></i></button>
+                            <button class="py-2 px-5 text-[14px]  border border-[#FF0000] bg-[#FF0000] hover:bg-white text-white hover:text-[#FF0000] duration-300 ">اطلب عبر الإنترنت <i class="fa fa-arrow-right ml-2"></i></button>
                         </div>
                     </div>
                </div>
@@ -70,33 +70,37 @@
         <main>
             <!--==| Banner Section Start Here |==-->
             <section class="banner-section -mt-[100px]  h-[100vh] bg-cover bg-no-repeat flex justify-center items-center">
-                <div class="banner-head  ">
-                    <h1 class="text-[42px] text-center text-white leading-[50px] font-bold">الوجهة النهائية لإطارات بيريلي</h1>
-                    <h2 class="text-[26px] text-center text-white leading-[32px] font-bold mt-3">وكيلك المعتمد بخدمة إطارات عالية الجودة</h2>
+                <div class="banner-head conatiner max-w-[900px] ">
+                    <h1 class="md:text-[64px] sm:text-[42px] text-[32px] md:leading-[74px] sm:leading-[46px] leading-[38px] text-center text-white  font-bold">الوجهة النهائية لإطارات بيريلي</h1>
+                    <h2 class="sm:text-[26px] text-[22px] sm:leading-[32px] leading-[28px] text-center text-white  font-bold mt-3">وكيلك المعتمد بخدمة إطارات عالية الجودة</h2>
                 </div>
             </section>
             <!--==| Banner Section End Here |==-->
 
             <!--==|Buy3 Get1 Free Section Start|==-->
-            <section class="offer-section py-[80px]">
-                <div class="container max-w-[1140px] mx-auto">
+            <section class="offer-section sm:py-[80px] py-[50px]">
+                <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
                     <p class="text-[#6b6365] text-center">في بترومين إكسبريس، نفخر بكوننا الوكيل المعتمد الرسمي والحصري لإطارات بيريلي في المملكة. كواحد من الموردين الرائدين  للإطارات في السوق، نوفر مجموعة واسعة من منتجات إطارات بيريلي، المناسبة لجميع أنواع المركبات، بما في ذلك السيارات والشاحنات وسيارات الدفع الرباعي.</p>
                     <div class="offer-content pt-[50px]">
-                        <div class="grid grid-cols-2">
-                            <div class=" offer-img">
-                                <img src="images/offer-img.png" alt="Offer Image">
+                        <div class="grid sm:grid-cols-2 grid-cols-1">
+                            <div class=" offer-img sm:block flex justify-center">
+                                <img class="sm:w-full w-3/4" src="images/offer-img.png" alt="Offer Image">
                             </div>
-                            <div class="offer-text flex items-center pl-7">
+                            <div class="offer-text flex items-center sm:pl-7 pl-0 sm:mt-0 mt-5">
                                <div>
-                                    <h1 class="text-[42px] leading-[50px] text-[#352a2d] font-bold">اشت ثلاثة إطارات واحصل على الرابع مجاناً</h1>
+                                    <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-[#352a2d] font-bold">اشت ثلاثة إطارات واحصل على الرابع مجاناً</h1>
                                     <h3 class="font-semibold text-[20px] leading-[32px] text-[#b00d0d] mt-3">إطارات بيريلي فقط</h3>
                                     <ul class="mt-5 ">
-                                        <li class=""><a class="text-[16px] leading-[26px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>تركيب الإطارات مجاناً</a></li>
-                                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>صالح لأحجام الإطارات المحددة فقط.</a></li>
-                                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>صالح حتى نفاذ الكمية المتاحة في المخزون.</a></li>
-                                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>تطبق الشروط والأحكام.</a></li>
+                                        <li class=""><a class="sm:text-[16px] text-[14px] sm:leading-[26px] leading-[20px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>تركيب الإطارات مجاناً</a></li>
+                                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] sm:leading-[26px] leading-[20px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>صالح لأحجام الإطارات المحددة فقط.</a></li>
+                                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] sm:leading-[26px] leading-[20px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>صالح حتى نفاذ الكمية المتاحة في المخزون.</a></li>
+                                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] sm:leading-[26px] leading-[20px] text-[#6b6365]" ><span class="mr-3"><i class="fa fa-check-circle text-[#1CAF30]"></i></span>تطبق الشروط والأحكام.</a></li>
                                     </ul>
-                                    <button class="mt-5 py-3 px-9 rounded-md text-[16px] font-bold uppercase bg-[#ba1515] text-white ">تفضل بزيارة مواقعنا لتغيير الإطارات</button>
+                                    <div    class="mt-10">
+                                        <a href="https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2sF0ZQx4yTRZmqisTIWulUeA!3e3?shorturl=1" target="_blank"
+                                            class=" md:py-3 sm:py-2 py-1 md:px-9 sm:px-5 px-3 rounded-md md:text-[16px] sm:text-[14px] text-[12px] rounded-md text-[16px] font-bold uppercase  border border-[#FF0000] bg-[#FF0000] hover:bg-white text-white hover:text-[#FF0000] duration-300 ">تفضل
+                                            بزيارة مواقعنا لتغيير الإطارات</a>
+                                    </div>
                                </div>
                             </div>
                         </div>
@@ -108,41 +112,41 @@
 
             <!--==|Tier Inspaction Section Start|==-->
             <section class="tier-section ">
-                <div class="container max-w-[1140px] mx-auto">
+                <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
                     <div class="tier-content ">
-                        <div class="grid grid-cols-2">
-                            <div class=" tier-img">
-                                <div class="grid grid-cols-2 gap-7">
+                        <div class="grid sm:grid-cols-2 grid-cols-1">
+                            <div class=" tier-img sm:order-1 order-2 sm:mt-0 mt-5">
+                                <div class="grid sm:grid-cols-2 grid-cols-1 md:gap-7 sm:gap-4 gap-3">
                                     <div class="single-img1 h-[250px] rounded-lg flex items-end justify-center pb-10">
                                        <div>
                                             <h5 class="text-[20px] leading-[30px] font-bold text-white text-center">تركيب الإطارات</h5>
                                        </div>
                                     </div>
-                                    <div class="mt-7 single-img2 h-[250px] rounded-lg flex items-end justify-center pb-10">
+                                    <div class="md:mt-7 sm:mt-4 mt-3 single-img2 h-[250px] rounded-lg flex items-end justify-center pb-10">
                                        <div>
                                             <h5 class="text-[20px] leading-[30px] font-bold text-white text-center">توازن العجلات</h5>
                                        </div>
                                     </div>
                                 </div>
-                                <div class="grid grid-cols-2 gap-7">
-                                    <div class="single-img3 h-[250px] rounded-lg flex items-end justify-center pb-10">
+                                <div class="grid sm:grid-cols-2 grid-cols-1 md:gap-7 sm:gap-4 gap-3">
+                                    <div class="sm:mt-0 mt-7 single-img3 h-[250px] rounded-lg flex items-end justify-center pb-10">
                                        <div>
                                             <h5 class="text-[20px] leading-[30px] font-bold text-white text-center">محاذاة العجلات</h5>
                                        </div>
                                     </div>
-                                    <div class="mt-7 single-img4 h-[250px] rounded-lg flex items-end justify-center pb-10">
+                                    <div class="md:mt-7 sm:mt-4 mt-3 single-img4 h-[250px] rounded-lg flex items-end justify-center pb-10">
                                        <div>
                                             <h5 class="text-[20px] leading-[30px] font-bold text-white text-center">تدوير الإطارات</h5>
                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tier-text flex items-center pl-20">
+                            <div class="tier-text flex items-center lg:pl-20 md:pl-12 sm:pl-8 pl-0 sm:order-2 order-1">
                                <div>
-                                    <h1 class="text-[42px] leading-[50px] text-[#352a2d] font-bold">متجرك الشامل لشراء الإطارات</h1>
-                                    <p class="text-[#6b6365] mt-5">في بترومين إكسبريس، نقدم مجموعة من الخدمات المتعلقة بالإطارات للحفاظ على سيارتك تعمل بسلاسة. تشمل خدماتنا تركيب الإطارات
+                                    <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-[#352a2d] font-bold">متجرك الشامل لشراء الإطارات</h1>
+                                    <p class=" sm:text-[16px] text-[14px] text-[#6b6365] mt-5">في بترومين إكسبريس، نقدم مجموعة من الخدمات المتعلقة بالإطارات للحفاظ على سيارتك تعمل بسلاسة. تشمل خدماتنا تركيب الإطارات
                                     وتوازنها ومحاذاتها وتدويرها</p>
-                                    <p class="text-[#6b6365] mt-10">يضم فريقنا من الفنيين المدربين على أعلى مستوى، الذين يضمنون تركيب الإطارات وخدمتها بكفاءة ودقة، ليمنحوك أفضل تجربة قيادة
+                                    <p class=" sm:text-[16px] text-[14px] text-[#6b6365] mt-10">يضم فريقنا من الفنيين المدربين على أعلى مستوى، الذين يضمنون تركيب الإطارات وخدمتها بكفاءة ودقة، ليمنحوك أفضل تجربة قيادة
                                     ممكنة</p>
                                </div>
                             </div>
@@ -155,25 +159,25 @@
 
 
             <!--==|Pirelli Tires Section Start|==-->
-            <section class="pirelli-tires-section py-[80px]">
-                <div class="container max-w-[1140px] mx-auto">
+            <section class="pirelli-tires-section sm:py-[80px] py-[50px]">
+                <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
                     
                     <div class="pirelli-tires-content ">
-                        <div class="grid grid-cols-2">
+                        <div class="grid sm:grid-cols-2 grid-cols-1">
 
-                            <div class="pirelli-tires-text flex items-center ">
+                            <div class="pirelli-tires-text flex items-center md:pr-0 sm:pr-7 pr-4">
                                 <div>
-                                    <h1 class="text-[42px] leading-[50px] text-[#c81e28] font-bold">ابحث عن إطارات بيريلي المناسبة لمركبتك</h1>
-                                    <p class="text-[#6b6365] mt-5">نحن نوفر مجموعة شاملة من إطارات بيريلي لتلبية جميع احتياجاتك. سواء كنت تحتاج إلى إطارات لجميع المواسم أو للطرق الوعرة أو
+                                    <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px]  text-[#c81e28] font-bold">ابحث عن إطارات بيريلي المناسبة لمركبتك</h1>
+                                    <p class="sm:text-[16px] text-[14px] text-[#6b6365] mt-5">نحن نوفر مجموعة شاملة من إطارات بيريلي لتلبية جميع احتياجاتك. سواء كنت تحتاج إلى إطارات لجميع المواسم أو للطرق الوعرة أو
                                     للصيف، فإننا نوفر لك ما تحتاجه</p>
-                                    <p class="text-[#6b6365] mt-5">منتجاتنا من إطارات بيريلي بالإضافة إلى خدماتنا المتخصصة مثل التركيب والتوازن والمحاذاة والدوران مصممة لتوفر لك تحكمًا
+                                    <p class="sm:text-[16px] text-[14px] text-[#6b6365] mt-5">منتجاتنا من إطارات بيريلي بالإضافة إلى خدماتنا المتخصصة مثل التركيب والتوازن والمحاذاة والدوران مصممة لتوفر لك تحكمًا
                                     ممتازًا وزيادة كفاءة استهلاك الوقود وأقصى درجات السلامة على الطريق</p>
                                 </div>
                             </div>
 
-                            <div class=" pirelli-tires-img flex justify-end">
-                                <div>
-                                    <img class="w-[350px] rounded-2xl" src="images/ep-services.jpg" alt="Offer Image">
+                            <div class=" pirelli-tires-img sm:mt-0 mt-5  flex md:justify-end sm:justify-center items-center">
+                                <div class="sm:px-0 px-10">
+                                    <img class="sm:w-[350px] w-full rounded-2xl" src="images/ep-services.jpg" alt="Offer Image">
                                 </div>
                             </div>
                             
@@ -186,18 +190,18 @@
 
 
             <!--==|Tier specification Section Start|==-->
-            <section class="tier-specification-section bg-[#F6F7F8] py-[80px]">
-                <div class="container max-w-[1140px] mx-auto">
-                    <h1 class="text-[42px] leading-[50px] text-[#c81e28] text-center font-bold">ابحث عن حجم الإطار الخاص بك</h1>    
+            <section class="tier-specification-section bg-[#F6F7F8] sm:py-[80px] py-[50px]">
+                <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
+                    <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px]  text-[#c81e28] text-center font-bold">ابحث عن حجم الإطار الخاص بك</h1>    
                     <div class="tier-feature mt-10">
-                        <div class="tier-model bg-white shadow-xl rounded-xl p-10">
-                            <h2 class="text-[30px] text-[#352a2d] uppercase font-bold text-center">مكان الموقع</h2>
+                        <div class="tier-model bg-white shadow-xl rounded-xl md:p-10 p-3">
+                            <h2 class="sm:text-[30px] text-[26px] text-[#352a2d] uppercase font-bold text-center">مكان الموقع</h2>
                             <div class="   mt-5   bg-white">
                             
-                                <div>
+                                <div class="overflow-y-auto overflow-x-auto h-[100vh]">
                             
                                     <table class="text-left w-full border-collapse mt-4">
-                                        <thead>
+                                        <thead class="sticky top-[-1px] bg-white">
                                             <tr class="text-[12px]">
                                                 <th class="py-5 px-2 text-center bg-grey-lightest font-bold uppercase  text-grey-dark border border-grey-light"> اسم المتجر</th>
                                                 <th class="py-5 px-2 text-center bg-grey-lightest font-bold uppercase  text-grey-dark border border-grey-light"> المنطقة / المدينة </th>
@@ -1102,19 +1106,19 @@
 
             <!--==|T&C Section Start|==-->
             <section class="tc-section ">
-                <div class="container max-w-[1140px] mx-auto shadow-xl py-[80px] px-[50px] rounded-b">
-                    <h1 class="text-[42px] text-[#352a2d] leading-[50px]  font-bold">الشروط والأحكام</h1>
+                <div class="container max-w-[1140px] mx-auto shadow-xl sm:py-[80px] py-[50px] sm:px-[50px] px-[30px] rounded-b">
+                    <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-[#352a2d] font-bold">الشروط والأحكام</h1>
                     <ul class="mt-8 ">
-                        <li class=""><a class="text-[16px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري على إطارات بيريللي فقط</a></li>
-                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري حتى 30 أبريل 2023 أو حتى نفاذ الكمية</a></li>
-                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري على أحجام محددة من الإطارات</a></li>
-                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري فقط في مواقع بترومين اكسبريس للإطارات</a></li>
-                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>لا يمكن دمج هذا العرض مع عروض الإطارات الأخرى الجارية</a></li>
-                        <li class="mt-3"><a class="text-[16px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>ساري حتى نفاذ الكمية</a></li>
+                        <li class=""><a class="sm:text-[16px] text-[14px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري على إطارات بيريللي فقط</a></li>
+                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري حتى 30 أبريل 2023 أو حتى نفاذ الكمية</a></li>
+                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري على أحجام محددة من الإطارات</a></li>
+                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>هذا العرض ساري فقط في مواقع بترومين اكسبريس للإطارات</a></li>
+                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>لا يمكن دمج هذا العرض مع عروض الإطارات الأخرى الجارية</a></li>
+                        <li class="mt-3"><a class="sm:text-[16px] text-[14px] leading-[26px] text-[#6b6365]"><span class="mr-3"><i class="fa fa-star-of-life text-[#1CAF30] text-[12px]"></i></span>ساري حتى نفاذ الكمية</a></li>
                     </ul>
                     <div class="customer-service flex items-center mt-7">
-                        <h2 class="text-[23px] text-[#f49712]">خدمة العملاء: </h2>
-                        <button class="py-1 px-2 text-[16px] bg-[#FF0000] text-white ml-20 rounded-md">8004420020</button>
+                        <h2 class="sm:text-[23px] text-20px text-[#f49712]">خدمة العملاء: </h2>
+                        <button class="py-1 px-2 sm:text-[16px] text-[14px] bg-[#FF0000] text-white ml-20 rounded-md">8004420020</button>
                         <button class=""></button>
                     </div>
                 </div>
@@ -1123,17 +1127,17 @@
 
 
             <!--==|Partnership Section Start|==-->
-            <section class="partnarship-section py-[80px]">
-                <div class="container max-w-[1140px] mx-auto">
+            <section class="partnarship-section sm:py-[80px] py-[50px]">
+                <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
             
                     <div class="partnarship-content ">
                         <div class="partnership-head max-w-[800px] mx-auto pb-12">
                             <h6 class=" text-[16px] tracking-wider font-bold">تطابق مثالي في عالم الإطارات</h6>
-                            <h1 class="mt-5 text-[42px] leading-[50px] text-[#c81e28] font-bold">شراكتنا مع إطارات بيريلي</h1>
+                            <h1 class="mt-5 sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px]  text-[#c81e28] font-bold">شراكتنا مع إطارات بيريلي</h1>
                         </div>
 
-                        <h1></h1>
-                        <div class="grid grid-cols-2">
+
+                        <div class="grid sm:grid-cols-2 grid-cols-1">
 
                             <div class=" partnarship-img ">
                                 <div>
@@ -1141,7 +1145,7 @@
                                 </div>
                             </div>
             
-                            <div class="partnarship-text flex items-center pl-20">
+                            <div class="partnarship-text flex items-center lg:pl-20 md:pl-12 sm:pl-8 pl-0 sm:mt-0 mt-5">
                                 <div>
                                     <p class="text-[#6b6365]">شراكتنا مع بيريلي هي شهادة على التزامنا بتوفير منتجات عالية الجودة والموثوقة لعملائنا. بيريلي هي علامة تجارية معترف بها عالميًا ومشهورة بإطاراتها عالية الأداء، التي صممت لتعزيز تجربة القيادة الخاصة بك</p>
                                     <p class="text-[#6b6365] mt-5">من خلال شراكتنا ، يمكنك التأكد بثقة من أنك تحصل على أفضل منتجات بيريلي وخدمات في المملكة.</p>
@@ -1157,25 +1161,25 @@
             
             
             <!--==|Why choose Section Start|==-->
-            <section class="why-choose pb-[80px]">
-                <div class="container max-w-[1140px] mx-auto">
-                    <h1 class="mt-5 text-[42px] leading-[50px] text-[#352a2d] text-center font-bold">لماذا تختار بترومين إكسبريس لاحتياجات إطاراتك؟</h1>
-                    <div class="facilities grid grid-cols-4 gap-5 mt-12">
+            <section class="why-choose sm:pb-[80px] pb-[50px]">
+                <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
+                    <h1 class="mt-5 sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-[#352a2d] text-center font-bold">لماذا تختار بترومين إكسبريس لاحتياجات إطاراتك؟</h1>
+                    <div class="facilities grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 mt-12">
                         <div class="facility p-7 border border-[#c81e28] rounded-xl">
                             <div class="facility-icon">
-                                <i class="fas fa-thumbs-up text-[35px] text-[#c81e28]"></i>
+                                <i class="fas fa-thumbs-up md:text-[35px] sm:text-[30px] text-[25px] text-[#c81e28]"></i>
                             </div>
                             <h2 class="mt-2 text-[20px] text-[#352a2d] font-bold leading-[30px]">الخدمات عالية الجودة</h2>
                         </div>
                         <div class="facility p-7 border border-[#c81e28] rounded-xl">
                             <div class="facility-icon">
-                                <i class="fas fa-money-bill-wave text-[35px] text-[#c81e28]"></i>
+                                <i class="fas fa-money-bill-wave md:text-[35px] sm:text-[30px] text-[25px] text-[#c81e28]"></i>
                             </div>
                             <h2 class="mt-2 text-[20px] text-[#352a2d] font-bold leading-[30px]">أسعار معقولة</h2>
                         </div>
                         <div class="facility p-7 border border-[#c81e28] rounded-xl">
                             <div class="facility-icon">
-                                <i class="fas fa-user-friends text-[35px] text-[#c81e28]"></i>
+                                <i class="fas fa-user-friends md:text-[35px] sm:text-[30px] text-[25px] text-[#c81e28]"></i>
                             </div>
                             <h2 class="mt-2 text-[20px] text-[#352a2d] font-bold leading-[30px]">خبير</h2>
                         </div>
@@ -1192,13 +1196,13 @@
             <!--==|Why choose Section End|==-->
 
             <!--==|CTA Section Start|==-->
-            <section class="cta-section bg-cover bg-no-repeat flex justify-center items-center py-[80px]">
-                <div class="cta-head container max-w-[870px] mx-auto ">
-                    <h1 class=" text-[42px] leading-[50px] text-white text-center font-bold">القيادة بثقة: اتصل بنا للحصول على</h1>
-                    <h1 class="mt-2 text-[42px] leading-[50px] text-white text-center font-bold">إطارات بيريللي الخاصة بك اليوم!</h1>
-                    <p class="text-white mt-5 text-center">هل أنت مستعد لتجربة أفضل إطارات بيريللي وخدمات في المملكة؟ يمكنك أيضًا زيارة أي من مواقع إطارات بترومين إكسبرس للاستشارة مع فنينا والحصول على الإطار المناسب وفقًا لمتطلبات سيارتك وظروف القيادة</p>
-                    <div class="cta-btn text-center mt-8">
-                        <button class=" py-3 px-9 rounded-md text-[16px] uppercase bg-[#ba1515] text-white ">قم بزيارة محطتنا</button>
+            <section class="cta-section bg-cover bg-no-repeat flex justify-center items-center sm:py-[80px] py-[50px]">
+                <div class="cta-head container max-w-[870px] mx-auto md:px-0 px-3">
+                    <h1 class=" sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-white text-center font-bold">القيادة بثقة: اتصل بنا للحصول على</h1>
+                    <h1 class="mt-2 sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-white text-center font-bold">إطارات بيريللي الخاصة بك اليوم!</h1>
+                    <p class="sm:text-[16px] text-[14px] text-white mt-5 text-center">هل أنت مستعد لتجربة أفضل إطارات بيريللي وخدمات في المملكة؟ يمكنك أيضًا زيارة أي من مواقع إطارات بترومين إكسبرس للاستشارة مع فنينا والحصول على الإطار المناسب وفقًا لمتطلبات سيارتك وظروف القيادة</p>
+                    <div class="cta-btn text-center sm:mt-8 mt-5">
+                        <a href="https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2sF0ZQx4yTRZmqisTIWulUeA!3e3?shorturl=1" target="_blank" class=" py-3 px-9 rounded-md text-[16px] uppercase  border border-[#FF0000] bg-[#FF0000] hover:bg-white text-white hover:text-[#FF0000] duration-300 ">قم بزيارة محطتنا</a>
                     </div>
                 </div>
             </section>
@@ -1206,16 +1210,16 @@
 
 
             <!--==|Contact Section Start|==-->
-            <section class="contact-section bg-[#352A2D] py-[80px]">
-                <div class="contact-info container max-w-[870px] mx-auto ">
-                    <div class="grid grid-cols-3 gap-3">
+            <section class="contact-section bg-[#352A2D] sm:py-[80px] py-[50px]">
+                <div class="contact-info container max-w-[870px] mx-auto md:px-0 px-3 ">
+                    <div class="grid sm:grid-cols-3 grid-cols-1 gap-3">
                         <div class="single-contact text-white flex items-center">
                             <div class="contact-icon">
                                 <i class="fas fa-phone text-[38px]	call-icon"></i>
                             </div>
                             <div class="contact-text ml-4">
                                 <h4 class="text-[15px] leading-[26px] font-bold">الشكاوي والاستفسارات</h4>
-                                <p class="mt-1">8004420020</p>
+                                <p class="sm:text-[16px] text-[14px]  mt-1">8004420020</p>
                             </div>
                         </div>
                         <div class="single-contact text-white flex items-center">
@@ -1224,7 +1228,7 @@
                             </div>
                             <div class="contact-text ml-4">
                                 <h4 class="text-[15px] leading-[26px] font-bold">أوقات مركز الاتصال</h4>
-                                <p class="mt-1">من الاثنين إلى الخميس: 8 صباحًا - 5 مساءً</p>
+                                <p class="sm:text-[16px] text-[14px]  mt-1">من الاثنين إلى الخميس: 8 صباحًا - 5 مساءً</p>
                             </div>
                         </div>
                         <div class="single-contact text-white flex items-center">
@@ -1233,8 +1237,8 @@
                             </div>
                             <div class="contact-text ml-4">
                                 <h4 class="text-[15px] leading-[26px] font-bold">ساعات عمل المحطة</h4>
-                                <p class="mt-1">من الاثنين إلى السبت: 8 صباحًا - 11:30 مساءً</p>
-                                <p class="mt-1">الجمعة: 4 مساءً - 10 مساءً</p>
+                                <p class="sm:text-[16px] text-[14px]  mt-1">من الاثنين إلى السبت: 8 صباحًا - 11:30 مساءً</p>
+                                <p class="sm:text-[16px] text-[14px]  mt-1">الجمعة: 4 مساءً - 10 مساءً</p>
                             </div>
                         </div>
                     </div>

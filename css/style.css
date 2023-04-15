@@ -79,3 +79,14 @@ p{
 }
 
 /* All CSS End Here */
+
+
+/**=== Responsive CSS Start Here ===**/
+@media (min-width: 0px) and (max-width: 768px) {
+
+    .header-menu .nav-menu .menu-item ul li a,
+        .header-menu .nav-menu .right-nav .arabic {
+            color: #352a2d;
+        }
+}
+/**=== Responsive CSS End Here ===**/
