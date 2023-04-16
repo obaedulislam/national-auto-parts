@@ -28,32 +28,36 @@
 <body>
    
     <!--==| Header Section Start Here |==-->
-    <header class=" sticky top-0 z-50  md:py-3 py-2 nav-fixed sm:block hidden">
+    <header class=" sticky top-0 z-50  md:py-3 py-2 nav-fixed md:px-0 px-3">
         <!--==== Navigation Menu Start ====-->
         <div class="container max-w-[1140px] mx-auto ">
             <div class="nav-menu grid grid-cols-12 flex items-center ">
-               <div class="col-span-3">
+               <div class="md:col-span-3 sm:col-span-4 col-span-4">
                     <div class="logo">
                         <a href="index.html">
-                            <img class="md:w-[150px] sm:w-[100px] w-[80px]" src="images/nap-logo.svg" alt="NAP Logo">
+                            <img class="md:w-[150px] sm:w-[100px] w-[90px]" src="images/nap-logo.svg" alt="NAP Logo">
                         </a>
                     </div>
                </div>
-               <div class="col-span-5 ">
+               <!-- <div class="md:col-span-5  md:block hidden">
                     <div class="menu-item ">
                        <ul class="flex justify-center items-center font-['Poppins'] text-white ">
                             <li class="mx-4"><a class="md:text-[12px] text-[10px] " href="mailto: contactNAP@petromin.com" target="_blank"><i class="fa fa-envelope mr-2 "></i>contactNAP@petromin.com</a></li>
-                            <li class="mx-4"><a class="md:text-[12px] text-[10px] " href="https://wa.me/00966554950759" target="_blank"><i class="fab fa-whatsapp mr-2 "></i>+966554950759</a></li>
+                            <li class="mx-4"><a class="md:text-[12px] text-[10px] " href=" https://api.whatsapp.com/send?phone=966554950759" target="_blank"><i class="fab fa-whatsapp mr-2 "></i>+966554950759</a></li>
                        </ul>
                     </div>
-               </div>
-               <div class="col-span-4">
+               </div> -->
+               <div class="md:col-span-9 sm:col-span-8 col-span-8">
                     <div class="right-nav  flex items-center justify-end">
+                        <div class="whats-app  mr-8 sm:block hidden">
+                            <a class="md:text-[16px] sm:text-[14px]  text-[10px] text-white" href=" https://api.whatsapp.com/send?phone=9665549507599"
+                                target="_blank"><i class="fab fa-whatsapp mr-2 "></i>+966554950759</a>
+                        </div>
                         <div class="change-language mr-8">
                             <a class="arabic font-semibold text-white hover:text-[#ff0000]" href="index.html">EN</a>
                         </div>
                         <div class="header-cta">
-                            <a href="https://www.natautoparts.com/en/index.html" target="_blank" class="py-2 px-5 text-[14px]  border border-[#FF0000] bg-[#FF0000] hover:bg-white text-white hover:text-[#FF0000] duration-300 ">الوطنية لقطع الغيار<i class="fa fa-arrow-right ml-2"></i></a>
+                            <a href="https://www.natautoparts.com/en/index.html" target="_blank" class="sm:py-2 py-1 sm:px-5 px-3 sm:text-[14px] text-[12px]  border border-[#FF0000] bg-[#FF0000] hover:bg-white text-white hover:text-[#FF0000] duration-300 ">الوطنية لقطع الغيار<i class="fa fa-arrow-right ml-2"></i></a>
                         </div>
                     </div>
                </div>
@@ -66,16 +70,22 @@
     <!--==| Main Section Start Here |==-->
         <main>
             <!--==| Banner Section Start Here |==-->
-            <section class="banner-section -mt-[100px]  h-[100vh] bg-cover bg-no-repeat flex justify-center items-center">
+            <section class="banner-section md:-mt-[100px] -mt-[68px] md:h-[100vh] h-[60vh]  bg-cover bg-no-repeat flex justify-center items-center">
                 <div class="banner-head conatiner max-w-[900px] ">
                     <h1 class="md:text-[64px] sm:text-[42px] text-[32px] md:leading-[74px] sm:leading-[46px] leading-[38px] text-center text-white  font-bold">قم بترقية عجلاتك من خلال عرضنا الحصري:</h1>
                     <h2 class="sm:text-[26px] text-[22px] sm:leading-[32px] leading-[28px] text-center text-white  font-bold mt-3">اشترِ 3 إطارات واحصل على 2 مجانًا - أحجام محدودة و DOT, 2022 </h2>
+                    <div class="md:mt-10 mt-5 flex justify-center">
+                        <a href="https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2sF0ZQx4yTRZmqisTIWulUeA!3e3?shorturl=1"
+                            target="_blank"
+                            class=" md:py-3 sm:py-2 py-1 md:px-9 sm:px-5 px-3 rounded-md md:text-[16px] sm:text-[14px] text-[12px] rounded-md text-[16px] font-bold uppercase  border border-[#FF0000] bg-[#FF0000] hover:bg-white text-white hover:text-[#FF0000] duration-300 ">تفضل
+                            بزيارة مواقعنا لتغيير الإطارات</a>
+                    </div>
                 </div>
             </section>
             <!--==| Banner Section End Here |==-->
 
             <!--==|Tier specification Section Start|==-->
-            <section class="tier-specification-section bg-[#F6F7F8] sm:py-[80px] py-[50px]">
+            <section class="tier-specification-section bg-[#F6F7F8] sm:py-[80px] py-[50px]" id="tier-specification-section ">
                 <div class="container max-w-[1140px] mx-auto md:px-0 px-3">
                     <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px]  text-[#c81e28] text-center font-bold">
                         ابحث عن حجم الإطار الخاص بك</h1>
@@ -1110,7 +1120,7 @@
                     <div class="offer-content pt-[50px]">
                         <div class="grid sm:grid-cols-2 grid-cols-1">
                             <div class=" offer-img sm:block flex justify-center">
-                                <img class="sm:w-full w-3/4" src="images/offer-img.png" alt="Offer Image">
+                                <img class="sm:w-full " src="images/offer-img.png" alt="Offer Image">
                             </div>
                             <div class="offer-text flex items-center sm:pl-7 pl-0 sm:mt-0 mt-5">
                                <div>
@@ -1137,146 +1147,146 @@
             <!--==|Buy3 Get1 Free Section End|==-->
 
 
-                    <!--==|Tier List Section Start|==-->
-                    <section class="tier-lst-section bg-[#F6F7F8] sm:py-[80px] py-[50px]">
-                        <div class="container max-w-[700px] mx-auto md:px-0 px-3">
-                            <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-[#c81e28] text-center font-bold">
-                                قائمة بأحجام الإطارات المؤهلة:
-                            </h1>
-                    
-                    
-                            <div class="tier-feature mt-10">
-                                <div class="tier-model bg-white shadow-xl rounded-xl md:p-10 p-3">
-                                    <h2 class="sm:text-[30px] text-[26px] text-[#352a2d] uppercase font-bold text-center">إيجاد حجم الإطار الخاص بك</h2>
-                    
-                                    <div class="   mt-5   bg-white">
-                    
-                                        <div class="overflow-y-auto overflow-x-auto h-[100vh]">
-                    
-                                            <table class="text-left w-full border-collapse mt-4 ">
-                                                <thead class="sticky top-0 bg-white border border-grey-light">
-                                                    <tr class="text-[12px] border border-grey-light">
-                                                        <th
-                                                            class="py-5 px-2 text-center bg-grey-lightest font-bold uppercase  text-grey-dark border border-grey-light">
-                                                            تخطيط موارد المؤسسات</th>
-                                                        <th
-                                                            class="py-5 px-2 text-center bg-grey-lightest font-bold uppercase  text-grey-dark border border-grey-light">
-                                                            وصف المنتج </th>
-                    
-                                                    </tr>
-                                                </thead>
-                                                <tbody class="">
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3445900</td>
-                                                        <td class="py-2 px-2 border border-grey-light">235/45R18 94V PZRAS</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-1555300</td>
-                                                        <td class="py-2 px-2 border border-grey-light">P275/55R20 111H S-STR</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3918800</td>
-                                                        <td class="py-2 px-2 border border-grey-light">215/55R17 94V PZRAS</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3918800</td>
-                                                        <td class="py-2 px-2 border border-grey-light">265/65R18 114H S-AS+3</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2347700</td>
-                                                        <td class="py-2 px-2 border border-grey-light">285/45R22 114H XL S-VEas</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2632200</td>
-                                                        <td class="py-2 px-2 border border-grey-light">275/35R20 102Y XL r-f P ZERO(MOE)
-                                                        </td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2632100</td>
-                                                        <td class="py-2 px-2 border border-grey-light">245/40R20 99Y XL r-f P ZERO(MOE)</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2153200</td>
-                                                        <td class="py-2 px-2 border border-grey-light">275/40R19 101Y r-f P ZERO(*)</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2450900</td>
-                                                        <td class="py-2 px-2 border border-grey-light">275/40R22 108Y XL S-VEas(LR)ncs</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3919800</td>
-                                                        <td class="py-2 px-2 border border-grey-light">235/55R20 102H S-AS+3</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-1791700</td>
-                                                        <td class="py-2 px-2 border border-grey-light">245/45ZR20 103Y XL P ZERO</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2519900</td>
-                                                        <td class="py-2 px-2 border border-grey-light">235/55R18 100V s-i S-VERD</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3275800</td>
-                                                        <td class="py-2 px-2 border border-grey-light">2235/55R18 100V s-i SCORPN</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2137300</td>
-                                                        <td class="py-2 px-2 border border-grey-light">245/45R19 98Y r-f P ZERO(*)</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2166800</td>
-                                                        <td class="py-2 px-2 border border-grey-light">275/45R21 110Y XL S-VEas(LR)</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3918400</td>
-                                                        <td class="py-2 px-2 border border-grey-light">245/60R18 105H S-AS+3</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3256600</td>
-                                                        <td class="py-2 px-2 border border-grey-light">235/55R19 101V S-VERD(MO)</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3918700</td>
-                                                        <td class="py-2 px-2 border border-grey-light">265/60R18 110V S-AS+3</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-1993600</td>
-                                                        <td class="py-2 px-2 border border-grey-light">P245/50R20 102H S-STR</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2506800</td>
-                                                        <td class="py-2 px-2 border border-grey-light">265/60R18 110H S-VERD</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2808300</td>
-                                                        <td class="py-2 px-2 border border-grey-light">235/55R18 100V S-VERD</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-1791600</td>
-                                                        <td class="py-2 px-2 border border-grey-light">275/40ZR20 106Y XL P ZERO</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3917200</td>
-                                                        <td class="py-2 px-2 border border-grey-light">245/40R20 99V XL P7as+3</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-3920700</td>
-                                                        <td class="py-2 px-2 border border-grey-light">275/60R20 115H S-AS+3</td>
-                                                    </tr>
-                                                    <tr class="hover:bg-grey-lighter text-center text-[12px]">
-                                                        <td class="py-2 px-2 border border-grey-light">PIRELLI-2354200</td>
-                                                        <td class="py-2 px-2 border border-grey-light">265/50R20 107V S-VEas</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
+            <!--==|Tier List Section Start|==-->
+            <section class="tier-lst-section bg-[#F6F7F8] sm:py-[80px] py-[50px]">
+                <div class="container max-w-[700px] mx-auto md:px-0 px-3">
+                    <h1 class="sm:text-[42px] sm:leading-[50px] text-[32px] leading-[38px] text-[#c81e28] text-center font-bold">
+                        قائمة بأحجام الإطارات المؤهلة:
+                    </h1>
+            
+            
+                    <div class="tier-feature mt-10">
+                        <div class="tier-model bg-white shadow-xl rounded-xl md:p-10 p-3">
+                            <h2 class="sm:text-[30px] text-[26px] text-[#352a2d] uppercase font-bold text-center">إيجاد حجم الإطار الخاص بك</h2>
+            
+                            <div class="   mt-5   bg-white">
+            
+                                <div class="overflow-y-auto overflow-x-auto h-[100vh]">
+            
+                                    <table class="text-left w-full border-collapse mt-4 ">
+                                        <thead class="sticky top-0 bg-white border border-grey-light">
+                                            <tr class="text-[12px] border border-grey-light">
+                                                <th
+                                                    class="py-5 px-2 text-center bg-grey-lightest font-bold uppercase  text-grey-dark border border-grey-light">
+                                                    تخطيط موارد المؤسسات</th>
+                                                <th
+                                                    class="py-5 px-2 text-center bg-grey-lightest font-bold uppercase  text-grey-dark border border-grey-light">
+                                                    وصف المنتج </th>
+            
+                                            </tr>
+                                        </thead>
+                                        <tbody class="">
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3445900</td>
+                                                <td class="py-2 px-2 border border-grey-light">235/45R18 94V PZRAS</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-1555300</td>
+                                                <td class="py-2 px-2 border border-grey-light">P275/55R20 111H S-STR</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3918800</td>
+                                                <td class="py-2 px-2 border border-grey-light">215/55R17 94V PZRAS</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3918800</td>
+                                                <td class="py-2 px-2 border border-grey-light">265/65R18 114H S-AS+3</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2347700</td>
+                                                <td class="py-2 px-2 border border-grey-light">285/45R22 114H XL S-VEas</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2632200</td>
+                                                <td class="py-2 px-2 border border-grey-light">275/35R20 102Y XL r-f P ZERO(MOE)
+                                                </td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2632100</td>
+                                                <td class="py-2 px-2 border border-grey-light">245/40R20 99Y XL r-f P ZERO(MOE)</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2153200</td>
+                                                <td class="py-2 px-2 border border-grey-light">275/40R19 101Y r-f P ZERO(*)</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2450900</td>
+                                                <td class="py-2 px-2 border border-grey-light">275/40R22 108Y XL S-VEas(LR)ncs</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3919800</td>
+                                                <td class="py-2 px-2 border border-grey-light">235/55R20 102H S-AS+3</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-1791700</td>
+                                                <td class="py-2 px-2 border border-grey-light">245/45ZR20 103Y XL P ZERO</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2519900</td>
+                                                <td class="py-2 px-2 border border-grey-light">235/55R18 100V s-i S-VERD</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3275800</td>
+                                                <td class="py-2 px-2 border border-grey-light">2235/55R18 100V s-i SCORPN</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2137300</td>
+                                                <td class="py-2 px-2 border border-grey-light">245/45R19 98Y r-f P ZERO(*)</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2166800</td>
+                                                <td class="py-2 px-2 border border-grey-light">275/45R21 110Y XL S-VEas(LR)</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3918400</td>
+                                                <td class="py-2 px-2 border border-grey-light">245/60R18 105H S-AS+3</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3256600</td>
+                                                <td class="py-2 px-2 border border-grey-light">235/55R19 101V S-VERD(MO)</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3918700</td>
+                                                <td class="py-2 px-2 border border-grey-light">265/60R18 110V S-AS+3</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-1993600</td>
+                                                <td class="py-2 px-2 border border-grey-light">P245/50R20 102H S-STR</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2506800</td>
+                                                <td class="py-2 px-2 border border-grey-light">265/60R18 110H S-VERD</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2808300</td>
+                                                <td class="py-2 px-2 border border-grey-light">235/55R18 100V S-VERD</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-1791600</td>
+                                                <td class="py-2 px-2 border border-grey-light">275/40ZR20 106Y XL P ZERO</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3917200</td>
+                                                <td class="py-2 px-2 border border-grey-light">245/40R20 99V XL P7as+3</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-3920700</td>
+                                                <td class="py-2 px-2 border border-grey-light">275/60R20 115H S-AS+3</td>
+                                            </tr>
+                                            <tr class="hover:bg-grey-lighter text-center text-[12px]">
+                                                <td class="py-2 px-2 border border-grey-light">PIRELLI-2354200</td>
+                                                <td class="py-2 px-2 border border-grey-light">265/50R20 107V S-VEas</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
-                    
                             </div>
                         </div>
-                    </section>
-                    <!--==|Tier List Section End|==-->
+            
+                    </div>
+                </div>
+            </section>
+            <!--==|Tier List Section End|==-->
 
 
 
